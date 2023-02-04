@@ -1,0 +1,374 @@
+/* 
+    PREADDED FONTS
+    Uncomment line that you want to use -> YOU NEED TO IMPORT THE FONT THERE OR IN YOUR HTML FILE
+*/ 
+
+:root {
+    /* font-family: 'Nunito', sans-serif; */
+    /* font-family: 'Poppins', sans-serif; */
+    /* font-family: 'Rubik', sans-serif; */
+    /* font-family: 'Work Sans', sans-serif; */
+    /* font-family: 'Montserrat', sans-serif; */
+    /* font-family: 'Inter', sans-serif; */
+    /* font-family: 'Fira Sans', sans-serif; */
+    /* font-family: 'Ubuntu', sans-serif; */
+    /* font-family: 'Ubuntu Mono', monospace; */
+    /* font-family: 'Raleway', sans-serif; */
+
+    /* font-family: 'Roboto', sans-serif; */
+    /* font-family: 'Roboto Condensed', sans-serif; */
+    /* font-family: 'Roboto Slab', serif; */
+    /* font-family: 'Roboto Mono', monospace; */
+    /* font-family: 'Roboto Flex', sans-serif; */
+    /* font-family: 'Robot Serif', serif; */
+
+    /* font-family: 'Open Sans', sans-serif; */
+    /* font-family: 'Oswald', sans-serif; */
+    /* font-family: 'Lato', sans-serif; */
+    /* font-family: 'Lora', serif; */
+    /* font-family: 'Noto Sans', sans-serif; */
+    /* font-family: 'Noto Serif', serif; */
+    /* font-family: 'PT Sans', sans-serif; */
+    /* font-family: 'PT Sans Narrow', sans-serif; */
+    /* font-family: 'PT Serif', serif; */
+    /* font-family: 'Source Sans Pro', sans-serif; */
+    /* font-family: 'Source Serif Pro', serif; */
+
+    --primary: #5667e2;
+    --primary-border: #6777eb;
+    --primary-hover: #4a59c5;
+    --secondary: #767887;
+    --secondary-border: #868897;
+    --secondary-hover: #5f6170;
+    --success: #33B15B;
+    --success-border: #39b869;
+    --success-hover: #2a9a4b;
+    --danger: #f5455f;
+    --danger-border: #ff5b76;
+    --danger-hover: #c53047;
+    --warning: #fab132;
+    --warning-border: #fbbd4a;
+    --warning-hover: #ffbe31;
+    --info: #2e82e8;
+    --info-border: #3f96f8;
+    --info-hover: #2a73c7;
+
+    --primary-soft: #5667e21a;
+    --secondary-soft: #7678871a;
+    --success-soft: #33B15B1a;
+    --danger-soft: #f5455f1a;
+    --warning-soft: #fab1321a;
+    --info-soft: #2e82e81a;
+}
+
+a {
+    color: var(--primary);
+}
+
+a:hover {
+    color: var(--primary-hover);
+}
+
+.btn {
+    font-weight: 500;
+    border-radius: 0.5rem;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: var(--primary);
+    border-color: var(--primary-border);
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .show > .btn-primary.dropdown-toggle {
+    color: #fff;
+    background-color: var(--primary-hover);
+    border-color: var(--primary-hover);
+}
+
+.btn-outline-primary {
+    color: var(--primary);
+    background-image: none;
+    border-color: var(--primary);
+}
+
+.btn-outline-primary:hover, .btn-outline-primary:focus, .btn-outline-primary:active, .btn-outline-primary.active, .show > .btn-outline-primary.dropdown-toggle {
+    color: #fff;
+    background-color: var(--primary);
+    border-color: var(--primary-border);
+}
+
+.btn-secondary {
+    background-color: var(--secondary);
+    border-color: var(--secondary-border);
+}
+
+.btn-secondary:hover, .btn-secondary:focus, .btn-secondary:active, .btn-secondary.active, .show > .btn-secondary.dropdown-toggle {
+    background-color: var(--secondary-hover);
+    border-color: var(--secondary-hover);
+}
+
+.btn-outline-secondary {
+    color: var(--secondary);
+    background-image: none;
+    border-color: var(--secondary);
+}
+
+.btn-outline-secondary:hover, .btn-outline-secondary:focus, .btn-outline-secondary:active, .btn-outline-secondary.active, .show > .btn-outline-secondary.dropdown-toggle {
+    color: #fff;
+    background-color: var(--secondary);
+    border-color: var(--secondary-border);
+}
+
+.btn-success {
+    color: #fff;
+    background-color: var(--success);
+    border-color: var(--success-border);
+}
+
+.btn-success:hover, .btn-success:focus, .btn-success:active, .btn-success.active, .show > .btn-success.dropdown-toggle {
+    color: #fff;
+    background-color: var(--success-hover);
+    border-color: var(--success-hover);
+}
+
+.btn-outline-success {
+    color: var(--success);
+    background-image: none;
+    border-color: var(--success);
+}
+
+.btn-outline-success:hover, .btn-outline-success:focus, .btn-outline-success:active, .btn-outline-success.active, .show > .btn-outline-success.dropdown-toggle {
+    color: #fff;
+    background-color: var(--success);
+    border-color: var(--success-border);
+}
+
+.btn-danger {
+    color: #fff;
+    background-color: var(--danger);
+    border-color: var(--danger-border);
+}
+
+.btn-danger:hover, .btn-danger:focus, .btn-danger:active, .btn-danger.active, .show > .btn-danger.dropdown-toggle {
+    color: #fff;
+    background-color: var(--danger-hover);
+    border-color: var(--danger-hover);
+}
+
+.btn-outline-danger {
+    color: var(--danger);
+    background-image: none;
+    border-color: var(--danger);
+}
+
+.btn-outline-danger:hover, .btn-outline-danger:focus, .btn-outline-danger:active, .btn-outline-danger.active, .show > .btn-outline-danger.dropdown-toggle {
+    color: #fff;
+    background-color: var(--danger);
+    border-color: var(--danger-border);
+}
+
+.btn-warning {
+    background-color: var(--warning);
+    border-color: var(--warning-border);
+}
+
+.btn-warning:hover, .btn-warning:focus, .btn-warning:active, .btn-warning.active, .show > .btn-warning.dropdown-toggle {
+    background-color: var(--warning-hover);
+    border-color: var(--warning-hover);
+}
+
+.btn-outline-warning {
+    color: var(--warning);
+    background-image: none;
+    border-color: var(--warning);
+}
+
+.btn-outline-warning:hover, .btn-outline-warning:focus, .btn-outline-warning:active, .btn-outline-warning.active, .show > .btn-outline-warning.dropdown-toggle {
+    background-color: var(--warning);
+    border-color: var(--warning-border);
+}
+
+.btn-info {
+    color: #fff;
+    background-color: var(--info);
+    border-color: var(--info-border);
+}
+
+.btn-info:hover, .btn-info:focus, .btn-info:active, .btn-info.active, .show > .btn-info.dropdown-toggle {
+    color: #fff;
+    background-color: var(--info-hover);
+    border-color: var(--info-hover);
+}
+
+.btn-outline-info {
+    color: var(--info);
+    background-image: none;
+    border-color: var(--info);
+}
+
+.btn-outline-info:hover, .btn-outline-info:focus, .btn-outline-info:active, .btn-outline-info.active, .show > .btn-outline-info.dropdown-toggle {
+    color: #fff;
+    background-color: var(--info);
+    border-color: var(--info-border);
+}
+
+.btn-soft-primary {
+    color: var(--primary);
+    background-color: var(--primary-soft);
+    border-color: var(--primary-soft);
+}
+
+.btn-soft-primary:hover, .btn-soft-primary:focus, .btn-soft-primary:active, .btn-soft-primary.active, .show > .btn-soft-primary.dropdown-toggle {
+    color: #fff;
+    background-color: var(--primary);
+    border-color: var(--primary-border);
+}
+
+.btn-soft-secondary {
+    color: var(--secondary);
+    background-color: var(--secondary-soft);
+    border-color: var(--secondary-soft);
+}
+
+.btn-soft-secondary:hover, .btn-soft-secondary:focus, .btn-soft-secondary:active, .btn-soft-secondary.active, .show > .btn-soft-secondary.dropdown-toggle {
+    color: #fff;
+    background-color: var(--secondary);
+    border-color: var(--secondary-border);
+}
+
+.btn-soft-success {
+    color: var(--success);
+    background-color: var(--success-soft);
+    border-color: var(--success-soft);
+}
+
+.btn-soft-success:hover, .btn-soft-success:focus, .btn-soft-success:active, .btn-soft-success.active, .show > .btn-soft-success.dropdown-toggle {
+    color: #fff;
+    background-color: var(--success);
+    border-color: var(--success-border);
+}
+
+.btn-soft-danger {
+    color: var(--danger);
+    background-color: var(--danger-soft);
+    border-color: var(--danger-soft);
+}
+
+.btn-soft-danger:hover, .btn-soft-danger:focus, .btn-soft-danger:active, .btn-soft-danger.active, .show > .btn-soft-danger.dropdown-toggle {
+    color: #fff;
+    background-color: var(--danger);
+    border-color: var(--danger-border);
+}
+
+.btn-soft-warning {
+    color: var(--warning);
+    background-color: var(--warning-soft);
+    border-color: var(--warning-soft);
+}
+
+.btn-soft-warning:hover, .btn-soft-warning:focus, .btn-soft-warning:active, .btn-soft-warning.active, .show > .btn-soft-warning.dropdown-toggle {
+    color: #fff;
+    background-color: var(--warning);
+    border-color: var(--warning-border);
+}
+
+.btn-soft-info {
+    color: var(--info);
+    background-color: var(--info-soft);
+    border-color: var(--info-soft);
+}
+
+.btn-soft-info:hover, .btn-soft-info:focus, .btn-soft-info:active, .btn-soft-info.active, .show > .btn-soft-info.dropdown-toggle {
+    color: #fff;
+    background-color: var(--info);
+    border-color: var(--info-border);
+}
+
+.btn-soft-light {
+    color: var(--light);
+    background-color: var(--light-soft);
+    border-color: var(--light-soft);
+}
+
+.alert {
+    border-radius: 0.5rem;
+}
+
+.alert-top {
+    border-radius: 0;
+    padding: 10px 16px;
+}
+
+.alert-top button.btn-close {
+    top: 0;
+    right: 0;
+    padding: 0.83rem 1rem;
+    margin: 0;
+}
+
+.alert-primary {
+    color: #fff;
+    background-color: var(--primary);
+}
+
+.alert-secondary {
+    color: #fff;
+    background-color: var(--secondary);
+}
+
+.alert-success {
+    color: #fff;
+    background-color: var(--success);
+}
+
+.alert-danger {
+    color: #fff;
+    background-color: var(--danger);
+}
+
+.alert-warning {
+    color: #fff;
+    background-color: var(--warning);
+}
+
+.alert-info {
+    color: #fff;
+    background-color: var(--info);
+}
+
+.alert-soft-primary {
+    color: var(--primary);
+    background-color: var(--primary-soft);
+    border-color: var(--primary-soft);
+}
+
+.alert-soft-secondary {
+    color: var(--secondary);
+    background-color: var(--secondary-soft);
+    border-color: var(--secondary-soft);
+}
+
+.alert-soft-success {
+    color: var(--success);
+    background-color: var(--success-soft);
+    border-color: var(--success-soft);
+}
+
+.alert-soft-danger {
+    color: var(--danger);
+    background-color: var(--danger-soft);
+    border-color: var(--danger-soft);
+}
+
+.alert-soft-warning {
+    color: var(--warning);
+    background-color: var(--warning-soft);
+    border-color: var(--warning-soft);
+}
+
+.alert-soft-info {
+    color: var(--info);
+    background-color: var(--info-soft);
+    border-color: var(--info-soft);
+}

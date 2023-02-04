@@ -5,14 +5,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <link rel="stylesheet" href="./bootstrap-plus.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
     <title>Document</title>
 </head>
 <body>
-    <div class="alert-top alert alert-success alert-dismissible" role="alert">
+    <div class="alert-top alert alert-soft-primary alert-dismissible" role="alert">
         <strong>Bootstrap Plus</strong> is a free and open source project that adds new features to Bootstrap 5.
         <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
     </div>
     <div class="container">
+        <div class="alert alert-soft-danger d-flex align-items-center rounded-3 mb-0" role="alert">
+            <h4 class="mb-0 alert-heading"><i class="bi bi-exclamation-triangle-fill me-2"></i> </h4>
+            <div class="ms-3">
+                <h6 class="mb-0 alert-heading">Hurry! 51% off the tours are already fully booked</h6>
+                <p class="mb-0">Many trips to various areas have been ordered, don't let you miss it</p>
+            </div>
+        </div>
+        <div class="alert alert-soft-warning alert-dismissible fade show my-3" role="alert">
+            <!-- Title -->
+            <div class="d-sm-flex align-items-center mb-3">
+                <img src="https://icons.getbootstrap.com/assets/img/icons-hero.png" class="w-40px me-3 mb-2 mb-sm-0" alt="" width="5%"> 
+                <h5 class="alert-heading mb-0">Bootstrap Plus</h5>
+            </div>
+            <!-- Content -->
+            <p class="mb-2">Aww yeah, you successfully read this important alert message. This example text is going to run a bit longer so that you can see how spacing within an alert works with this kind of content.</p>
+            <!-- Button and price -->
+            <div class="d-sm-flex align-items-center">
+                <a href="#" class="btn btn-sm btn-warning mb-2 mb-sm-0 me-3"><i class="bi bi-plus me-2"></i>Add</a>
+                <h6 class="mb-0">Free for all</h6>
+            </div>
+            <!-- Close button -->
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
         <div class="row">
             <div class="col-12">
                 <h1>Bootstrap Plus</h1>
@@ -226,6 +250,122 @@
                         <li><hr class="dropdown-divider"></li>
                         <li><a class="dropdown-item" href="#">Separated link</a></li>
                     </ul>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <h2>Avatar</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 d-flex row gx-2">
+                <div class="col-auto">
+                    <div class="avatar avatar-sm">
+                        <img src="https://via.placeholder.com/150" alt="..." class="avatar-img rounded-circle">
+                    </div>
+                </div>
+                <div class="col-auto">
+                    <div class="avatar avatar-md">
+                        <img src="https://via.placeholder.com/150" alt="..." class="avatar-img rounded-circle">
+                    </div>
+                </div>
+                <div class="col-auto">
+                    <div class="avatar avatar-lg">
+                        <img src="https://via.placeholder.com/150" alt="..." class="avatar-img rounded-circle">
+                    </div>
+                </div>
+                <div class="col-auto">
+                    <div class="avatar avatar-xl">
+                        <img src="https://via.placeholder.com/150" alt="..." class="avatar-img rounded-circle">
+                    </div>
+                </div>
+                <div class="col-auto">
+                    <div class="avatar avatar-xxl">
+                        <img src="https://via.placeholder.com/150" alt="..." class="avatar-img rounded-circle">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <h2>Avatar Group</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <p>Without avatar border</p>
+                <div class="avatar-group">
+                    <a href="#" class="avatar" data-bs-toggle="tooltip" title="Ryan Tompson">
+                        <img src="https://images.pexels.com/photos/7180886/pexels-photo-7180886.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load" alt="..." class="avatar-img">
+                    </a>
+                    <a href="#" class="avatar" data-bs-toggle="tooltip" title="Romina Hadid">
+                        <img src="https://images.pexels.com/photos/2424875/pexels-photo-2424875.jpeg?auto=compress&cs=tinysrgb&w=300&lazy=load" alt="..." class="avatar-img">
+                    </a>
+                    <a href="#" class="avatar" data-bs-toggle="tooltip" title="Alexander Smith">
+                        <img src="https://images.pexels.com/photos/14267200/pexels-photo-14267200.jpeg?auto=compress&cs=tinysrgb&w=300&lazy=load" alt="..." class="avatar-img">
+                    </a>
+                    <a href="#" class="avatar" data-bs-toggle="tooltip" title="Jessica Doe">
+                        <img src="https://images.pexels.com/photos/14855073/pexels-photo-14855073.jpeg?auto=compress&cs=tinysrgb&w=300&lazy=load" alt="..." class="avatar-img">
+                    </a>
+                </div>
+            </div>
+            <div class="col-12 mt-3">
+                <p>With avatar border</p>
+                <div class="avatar-group">
+                    <a href="#" class="avatar avatar-border" data-bs-toggle="tooltip" title="Ryan Tompson">
+                        <img src="https://images.pexels.com/photos/7180886/pexels-photo-7180886.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load" alt="..." class="avatar-img">
+                    </a>
+                    <a href="#" class="avatar avatar-border" data-bs-toggle="tooltip" title="Romina Hadid">
+                        <img src="https://images.pexels.com/photos/2424875/pexels-photo-2424875.jpeg?auto=compress&cs=tinysrgb&w=300&lazy=load" alt="..." class="avatar-img">
+                    </a>
+                    <a href="#" class="avatar avatar-border" data-bs-toggle="tooltip" title="Alexander Smith">
+                        <img src="https://images.pexels.com/photos/14267200/pexels-photo-14267200.jpeg?auto=compress&cs=tinysrgb&w=300&lazy=load" alt="..." class="avatar-img">
+                    </a>
+                    <a href="#" class="avatar avatar-border" data-bs-toggle="tooltip" title="Jessica Doe">
+                        <img src="https://images.pexels.com/photos/14855073/pexels-photo-14855073.jpeg?auto=compress&cs=tinysrgb&w=300&lazy=load" alt="..." class="avatar-img">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <h2>Avatar Status</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <p>Without avatar border</p>
+                <div class="avatar-group">
+                    <a href="#" class="avatar online" data-bs-toggle="tooltip" title="Ryan Tompson">
+                        <img src="https://images.pexels.com/photos/7180886/pexels-photo-7180886.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load" alt="..." class="avatar-img">
+                    </a>
+                    <a href="#" class="avatar idle" data-bs-toggle="tooltip" title="Romina Hadid">
+                        <img src="https://images.pexels.com/photos/2424875/pexels-photo-2424875.jpeg?auto=compress&cs=tinysrgb&w=300&lazy=load" alt="..." class="avatar-img">
+                    </a>
+                    <a href="#" class="avatar dnd" data-bs-toggle="tooltip" title="Alexander Smith">
+                        <img src="https://images.pexels.com/photos/14267200/pexels-photo-14267200.jpeg?auto=compress&cs=tinysrgb&w=300&lazy=load" alt="..." class="avatar-img">
+                    </a>
+                    <a href="#" class="avatar offline" data-bs-toggle="tooltip" title="Jessica Doe">
+                        <img src="https://images.pexels.com/photos/14855073/pexels-photo-14855073.jpeg?auto=compress&cs=tinysrgb&w=300&lazy=load" alt="..." class="avatar-img">
+                    </a>
+                </div>
+            </div>
+            <div class="col-12 mt-3">
+                <p>With avatar border</p>
+                <div class="avatar-group">
+                    <a href="#" class="avatar avatar-border online" data-bs-toggle="tooltip" title="Ryan Tompson">
+                        <img src="https://images.pexels.com/photos/7180886/pexels-photo-7180886.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load" alt="..." class="avatar-img">
+                    </a>
+                    <a href="#" class="avatar avatar-border idle" data-bs-toggle="tooltip" title="Romina Hadid">
+                        <img src="https://images.pexels.com/photos/2424875/pexels-photo-2424875.jpeg?auto=compress&cs=tinysrgb&w=300&lazy=load" alt="..." class="avatar-img">
+                    </a>
+                    <a href="#" class="avatar avatar-border dnd" data-bs-toggle="tooltip" title="Alexander Smith">
+                        <img src="https://images.pexels.com/photos/14267200/pexels-photo-14267200.jpeg?auto=compress&cs=tinysrgb&w=300&lazy=load" alt="..." class="avatar-img">
+                    </a>
+                    <a href="#" class="avatar avatar-border offline" data-bs-toggle="tooltip" title="Jessica Doe">
+                        <img src="https://images.pexels.com/photos/14855073/pexels-photo-14855073.jpeg?auto=compress&cs=tinysrgb&w=300&lazy=load" alt="..." class="avatar-img">
+                    </a>
                 </div>
             </div>
         </div>

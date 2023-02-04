@@ -297,13 +297,14 @@ a:hover {
 
 .alert-top {
     border-radius: 0;
-    padding: 10px 16px;
+    padding: 0.4rem 2rem;
+    text-align: center;
 }
 
-.alert-top button.btn-close {
+.alert-dismissible button.btn-close {
     top: 0;
     right: 0;
-    padding: 0.83rem 1rem;
+    padding: 0.7rem 1rem;
     margin: 0;
 }
 
@@ -371,4 +372,106 @@ a:hover {
     color: var(--info);
     background-color: var(--info-soft);
     border-color: var(--info-soft);
+}
+
+.avatar {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    position: relative;
+}
+
+.avatar-sm {
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+.avatar-md {
+    width: 3rem;
+    height: 3rem;
+}
+
+.avatar-lg {
+    width: 4rem;
+    height: 4rem;
+}
+
+.avatar-xl {
+    width: 5rem;
+    height: 5rem;
+}
+
+.avatar-xxl {
+    width: 7.5rem;
+    height: 7.5rem;
+}
+
+.avatar-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.avatar-group {
+    display: flex;
+    align-items: center;
+}
+
+.avatar-group .avatar {
+    margin-right: -0.8rem;
+}
+
+.avatar-group .avatar:last-child {
+    margin-right: 0;
+}
+
+.avatar-border {
+    border: 2px solid var(--bs-body-bg);
+}
+
+.online:before, .idle:before, .dnd:before, .offline:before {
+    content: "";
+    position: absolute;
+    width: 30%;
+    height: 30%;
+    border-radius: 50%;
+    bottom: 0;
+    right: 0;
+}
+
+.online:before {
+    background-color: var(--success);
+}
+
+.idle:before {
+    background-color: var(--warning);
+}
+
+.dnd:before {
+    background-color: var(--danger);
+}
+
+.offline:before {
+    background-color: var(--secondary);
+}
+
+.avatar-border.online:before {
+    border: 2px solid var(--bs-body-bg);
+}
+
+.avatar-border.idle:before {
+    border: 2px solid var(--bs-body-bg);
+}
+
+.avatar-border.dnd:before {
+    border: 2px solid var(--bs-body-bg);
+}
+
+.avatar-border.offline:before {
+    border: 2px solid var(--bs-body-bg);
+}
+
+:before {
+    box-sizing: border-box;
 }

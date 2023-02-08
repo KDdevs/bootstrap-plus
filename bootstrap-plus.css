@@ -657,4 +657,198 @@ a:hover {
     border-color: var(--dark-soft);
 }
 
+.backdrop-blur-sm {
+    backdrop-filter: blur(5px);
+}
 
+.backdrop-blur-md {
+    backdrop-filter: blur(10px);
+}
+
+.backdrop-blur-lg {
+    backdrop-filter: blur(20px);
+}
+
+.backdrop-blur-xl {
+    backdrop-filter: blur(30px);
+}
+
+.backdrop-blur-2xl {
+    backdrop-filter: blur(40px);
+}
+
+.backdrop-blur-3xl {
+    backdrop-filter: blur(50px);
+}
+
+.backdrop-brightness-none {
+    backdrop-filter: brightness(0);
+}
+
+.backdrop-brightness-sm {
+    backdrop-filter: brightness(0.25);
+}
+
+.backdrop-brightness-md {
+    backdrop-filter: brightness(0.5);
+}
+
+.backdrop-brightness-lg {
+    backdrop-filter: brightness(0.75);
+}
+
+.backdrop-brightness-full {
+    backdrop-filter: brightness(1);
+}
+
+.backdrop-contrast-none {
+    backdrop-filter: contrast(0);
+}
+
+.backdrop-contrast-sm {
+    backdrop-filter: contrast(0.25);
+}
+
+.backdrop-contrast-md {
+    backdrop-filter: contrast(0.5);
+}
+
+.backdrop-contrast-lg {
+    backdrop-filter: contrast(0.75);
+}
+
+.backdrop-contrast-full {
+    backdrop-filter: contrast(1);
+}
+
+.backdrop-grayscale-none {
+    backdrop-filter: grayscale(0);
+}
+
+.backdrop-grayscale-sm {
+    backdrop-filter: grayscale(0.25);
+}
+
+.backdrop-grayscale-md {
+    backdrop-filter: grayscale(0.5);
+}
+
+.backdrop-grayscale-lg {
+    backdrop-filter: grayscale(0.75);
+}
+
+.backdrop-grayscale-full {
+    backdrop-filter: grayscale(1);
+}
+
+.backdrop-hue-rotate-none {
+    backdrop-filter: hue-rotate(0deg);
+}
+
+.backdrop-hue-rotate-45 {
+    backdrop-filter: hue-rotate(45deg);
+}
+
+.backdrop-hue-rotate-90 {
+    backdrop-filter: hue-rotate(90deg);
+}
+
+.backdrop-hue-rotate-135 {
+    backdrop-filter: hue-rotate(135deg);
+}
+
+.backdrop-hue-rotate-180 {
+    backdrop-filter: hue-rotate(180deg);
+}
+
+.backdrop-hue-rotate-225 {
+    backdrop-filter: hue-rotate(225deg);
+}
+
+.backdrop-hue-rotate-270 {
+    backdrop-filter: hue-rotate(270deg);
+}
+
+.backdrop-hue-rotate-315 {
+    backdrop-filter: hue-rotate(315deg);
+}
+
+.backdrop-invert-none {
+    backdrop-filter: invert(0);
+}
+
+.backdrop-invert-sm {
+    backdrop-filter: invert(0.25);
+}
+
+.backdrop-invert-md {
+    backdrop-filter: invert(0.5);
+}
+
+.backdrop-invert-lg {
+    backdrop-filter: invert(0.75);
+}
+
+.backdrop-invert-full {
+    backdrop-filter: invert(1);
+}
+
+.backdrop-saturate-none {
+    backdrop-filter: saturate(0);
+}
+
+.backdrop-saturate-sm {
+    backdrop-filter: saturate(0.25);
+}
+
+.backdrop-saturate-md {
+    backdrop-filter: saturate(0.5);
+}
+
+.backdrop-saturate-lg {
+    backdrop-filter: saturate(0.75);
+}
+
+.backdrop-saturate-full {
+    backdrop-filter: saturate(1);
+}
+
+.backdrop-sepia-none {
+    backdrop-filter: sepia(0);
+}
+
+.backdrop-sepia-sm {
+    backdrop-filter: sepia(0.25);
+}
+
+.backdrop-sepia-md {
+    backdrop-filter: sepia(0.5);
+}
+
+.backdrop-sepia-lg {
+    backdrop-filter: sepia(0.75);
+}
+
+.backdrop-sepia-full {
+    backdrop-filter: sepia(1);
+}
+
+.backdrop-opacity-none {
+    backdrop-filter: opacity(0);
+}
+
+.backdrop-opacity-sm {
+    backdrop-filter: opacity(0.25);
+}
+
+.backdrop-opacity-md {
+    backdrop-filter: opacity(0.5);
+}
+
+.backdrop-opacity-lg {
+    backdrop-filter: opacity(0.75);
+}
+
+.backdrop-opacity-full {
+    backdrop-filter: opacity(1);
+}

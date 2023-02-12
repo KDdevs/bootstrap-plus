@@ -1038,3 +1038,193 @@ a:hover {
 .backgrond-blend-luminosity {
     background-blend-mode: luminosity;
 }
+
+.letter-spacing-tight {
+    letter-spacing: -0.05em;
+}
+
+.letter-spacing-normal {
+    letter-spacing: 0;
+}
+
+.letter-spacing-wide {
+    letter-spacing: 0.05em;
+}
+
+.letter-spacing-wider {
+    letter-spacing: 0.1em;
+}
+
+.letter-spacing-widest {
+    letter-spacing: 0.25em;
+}
+
+.fw-100 {
+    font-weight: 100;
+}
+
+.fw-200 {
+    font-weight: 200;
+}
+
+.fw-300 {
+    font-weight: 300;
+}
+
+.fw-400 {
+    font-weight: 400;
+}
+
+.fw-500 {
+    font-weight: 500;
+}
+
+.fw-600 {
+    font-weight: 600;
+}
+
+.fw-700 {
+    font-weight: 700;
+}
+
+.fw-800 {
+    font-weight: 800;
+}
+
+.fw-900 {
+    font-weight: 900;
+}
+
+.antialiased {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.subpixel-antialiased {
+    -webkit-font-smoothing: auto;
+    -moz-osx-font-smoothing: auto;
+}
+
+.text-primary {
+    color: var(--primary);
+}
+
+.text-secondary {
+    color: var(--secondary);
+}
+
+.text-warning {
+    color: var(--warning);
+}
+
+.text-danger {
+    color: var(--danger);
+}
+
+.text-success {
+    color: var(--success);
+}
+
+.text-info {
+    color: var(--info);
+}
+
+.text-white {
+    color: var(--white);
+}
+
+.text-black {
+    color: var(--black);
+}
+
+.text-opacity-10 {
+    opacity: 0.1;
+}
+
+.text-opacity-20 {
+    opacity: 0.2;
+}
+
+.text-opacity-30 {
+    opacity: 0.3;
+}
+
+.text-opacity-40 {
+    opacity: 0.4;
+}
+
+.text-opacity-50 {
+    opacity: 0.5;
+}
+
+.text-opacity-60 {
+    opacity: 0.6;
+}
+
+.text-opacity-70 {
+    opacity: 0.7;
+}
+
+.text-opacity-80 {
+    opacity: 0.8;
+}
+
+.text-opacity-90 {
+    opacity: 0.9;
+}
+
+.text-opacity-100 {
+    opacity: 1;
+}
+
+.text-opacity-0 {
+    opacity: 0;
+}
+
+.text-decoration-none {
+    text-decoration: none;
+}
+
+.text-decoration-underline {
+    text-decoration: underline;
+}
+
+.text-decoration-line-through {
+    text-decoration: line-through;
+}
+
+.text-decoration-underline-line-through {
+    text-decoration: underline line-through;
+}
+
+.text-decoration-underline-dotted {
+    text-decoration: underline dotted;
+}
+
+.text-decoration-underline-dashed {
+    text-decoration: underline dashed;
+}
+
+.text-decoration-underline-double {
+    text-decoration: underline double;
+}
+
+.text-decoration-underline-wavy {
+    text-decoration: underline wavy;
+}
+
+.text-decoration-line-through-dotted {
+    text-decoration: line-through dotted;
+}
+
+.text-decoration-line-through-dashed {
+    text-decoration: line-through dashed;
+}
+
+.text-decoration-line-through-double {
+    text-decoration: line-through double;
+}
+
+.text-decoration-line-through-wavy {
+    text-decoration: line-through wavy;
+}

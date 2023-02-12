@@ -852,3 +852,189 @@ a:hover {
 .backdrop-opacity-full {
     backdrop-filter: opacity(1);
 }
+
+.background-size-cover {
+    background-size: cover;
+}
+
+.background-size-contain {
+    background-size: contain;
+}
+
+.background-size-auto {
+    background-size: auto;
+}
+
+.background-size-25 {
+    background-size: 25%;
+}
+
+.background-size-50 {
+    background-size: 50%;
+}
+
+.background-size-75 {
+    background-size: 75%;
+}
+
+.background-size-100 {
+    background-size: 100%;
+}
+
+.background-position-center {
+    background-position: center;
+}
+
+.background-position-top {
+    background-position: top;
+}
+
+.background-position-bottom {
+    background-position: bottom;
+}
+
+.background-position-left {
+    background-position: left;
+}
+
+.background-position-right {
+    background-position: right;
+}
+
+.background-position-top-left {
+    background-position: top left;
+}
+
+.background-position-top-right {
+    background-position: top right;
+}
+
+.background-position-bottom-left {
+    background-position: bottom left;
+}
+
+.background-position-bottom-right {
+    background-position: bottom right;
+}
+
+.background-repeat-none {
+    background-repeat: no-repeat;
+}
+
+.background-repeat-repeat {
+    background-repeat: repeat;
+}
+
+.background-repeat-round {
+    background-repeat: round;
+}
+
+.background-repeat-space {
+    background-repeat: space;
+}
+
+.background-repeat-repeat-x {
+    background-repeat: repeat-x;
+}
+
+.background-repeat-repeat-y {
+    background-repeat: repeat-y;
+}
+
+.background-repeat-space-repeat {
+    background-repeat: space repeat;
+}
+
+.background-repeat-repeat-repeat {
+    background-repeat: repeat repeat;
+}
+
+.background-repeat-round-space {
+    background-repeat: round space;
+}
+
+.background-repeat-no-repeat-round {
+    background-repeat: no-repeat round;
+}
+
+.background-clip-border {
+    background-clip: border-box;
+}
+
+.background-clip-padding {
+    background-clip: padding-box;
+}
+
+.background-clip-content {
+    background-clip: content-box;
+}
+
+.background-clip-text {
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.backgrond-blend-normal {
+    background-blend-mode: normal;
+}
+
+.backgrond-blend-multiply {
+    background-blend-mode: multiply;
+}
+
+.backgrond-blend-screen {
+    background-blend-mode: screen;
+}
+
+.backgrond-blend-overlay {
+    background-blend-mode: overlay;
+}
+
+.backgrond-blend-darken {
+    background-blend-mode: darken;
+}
+
+.backgrond-blend-lighten {
+    background-blend-mode: lighten;
+}
+
+.backgrond-blend-color-dodge {
+    background-blend-mode: color-dodge;
+}
+
+.backgrond-blend-color-burn {
+    background-blend-mode: color-burn;
+}
+
+.backgrond-blend-hard-light {
+    background-blend-mode: hard-light;
+}
+
+.backgrond-blend-soft-light {
+    background-blend-mode: soft-light;
+}
+
+.backgrond-blend-difference {
+    background-blend-mode: difference;
+}
+
+.backgrond-blend-exclusion {
+    background-blend-mode: exclusion;
+}
+
+.backgrond-blend-hue {
+    background-blend-mode: hue;
+}
+
+.backgrond-blend-saturation {
+    background-blend-mode: saturation;
+}
+
+.backgrond-blend-color {
+    background-blend-mode: color;
+}
+
+.backgrond-blend-luminosity {
+    background-blend-mode: luminosity;
+}
